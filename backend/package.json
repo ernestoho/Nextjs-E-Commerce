@@ -6,6 +6,7 @@
     "start": "node ./bin/www",
     "dev": "DEBUG=backend:* nodemon ./bin/www",
     "dev-windows": "nodemon ./bin/www"
+    "dev": "next dev -p 3005"
   },
   "dependencies": {
     "bcrypt": "^3.0.0",
